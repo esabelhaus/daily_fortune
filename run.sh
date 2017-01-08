@@ -11,6 +11,6 @@ fi
 
 source $activate
 
-python fortune.py
+python $DIR/fortune.py
 
 deactivate
