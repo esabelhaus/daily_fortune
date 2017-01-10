@@ -9,7 +9,7 @@ def get_fortune():
     getting_fortune = True
 
     while (getting_fortune):
-        with Popen(['fortune'], stdout=PIPE) as proc:
+        with Popen(['fortune', 'startrek', 'paradoxum', 'magic', 'goedel'], stdout=PIPE) as proc:
             fortune = str(proc.stdout.read(), 'utf-8')
 
         cleaned_fortune = fortune.strip('\\n\\t').rsplit('--')
