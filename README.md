@@ -7,7 +7,7 @@
   * I suggest using this tutorial:
   * `https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04`
 * fortunes library
-  * ubuntu: `sudo apt-get install fortune-mod`
+  * ubuntu: `sudo apt-get install fortune-mod fortunes`
   * centos: `sudo yum install fortune-mod`
   * otherwise, google is your friend here :smiley:
 * twitter consumer key/secret
