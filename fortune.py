@@ -50,7 +50,7 @@ def get_fortune():
         author = '--' + author
 
         # find length of string
-        if (140 >= len(fortune) + len('\\n' + author)):
+        if (280 >= len(fortune) + len('\\n' + author)):
             getting_fortune = False
         else:
             fortune = ''
